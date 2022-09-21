@@ -7,7 +7,7 @@ public class Cilindro {
 		double areaTotal, Volumen, h, areaLateral, a;
 		
 		do{
-		System.out.println("Digite el radio mayor");
+		System.out.println("Digite el radio");
 		r=lec.nextInt();}while(r<=0);
 		do{
 		System.out.println("Digite la altura");
@@ -22,7 +22,6 @@ public class Cilindro {
 		System.out.println("4.Area Lateral: "+areaLateral);
 		System.out.println("5.Area Total: "+areaTotal);
 		System.out.println("6.Volumen: "+Volumen);
-
+		lec.close();
 	}
-
 }
