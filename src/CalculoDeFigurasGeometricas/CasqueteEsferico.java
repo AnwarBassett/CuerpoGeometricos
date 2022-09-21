@@ -1,13 +1,17 @@
 package CalculoDeFigurasGeometricas;
-
+import java.util.Scanner;
 public class CasqueteEsferico {
-
 	public static void main(String[] args) {
+		Scanner lec=new Scanner(System.in);
 		double Area, Volumen, r, R, h;
-		
-		R=7;
-		r=5;
-		h=12;
+		do{
+		System.out.println("Digite el radio menor");
+		r=lec.nextDouble();
+		System.out.println("Digite el radio mayor");
+		R=lec.nextDouble();
+		}while(r<=0 && R<=0);
+		System.out.println("Digite la altura");
+		h=lec.nextDouble();
 		Area= 2*Math.PI*(R*h);
 		Volumen = Math.PI*Math.pow(h,2)*((3*R)-h)/3;
 
@@ -17,5 +21,6 @@ public class CasqueteEsferico {
 		System.out.println("4.Altura: "+h);
 		System.out.println("5.Area Total: "+Area);
 		System.out.println("6.Volumen: "+Volumen);
+		lec.close();
 	}
 }
