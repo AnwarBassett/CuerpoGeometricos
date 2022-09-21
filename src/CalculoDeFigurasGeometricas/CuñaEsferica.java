@@ -5,7 +5,7 @@ public class CuñaEsferica {
 		Scanner lec=new Scanner(System.in);
 		double Volumen, r, n;
 		do{
-		System.out.println("Digite el radio mayor");
+		System.out.println("Digite el radio");
 		r=lec.nextDouble();}while(r<=0);
 		do{
 		System.out.println("Digite los grados");
