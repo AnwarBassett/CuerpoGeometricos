@@ -5,7 +5,6 @@ public class Hexaedro {
 		Scanner lec=new Scanner(System.in);
 		double Area, Volumen, arista, D;
 		do{System.out.println("Digite el valor de la arista");arista=lec.nextDouble();}while(arista <=0);
-		arista=15;
 		D=arista*Math.sqrt(3);
 		Area= 6*Math.pow(arista,2);
 		Volumen = Math.pow(arista,3);

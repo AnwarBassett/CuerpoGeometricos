@@ -5,7 +5,6 @@ public class Dodecaedro {
 	    Scanner lec=new Scanner(System.in);
 		double Area, Volumen, arista;
 		do{System.out.println("Digite el valor de la arista");arista=lec.nextDouble();}while(arista <=0);
-		arista=5;
 		Area= 3*Math.pow(arista,2)*Math.sqrt(25+10*Math.sqrt(5));
 		Volumen = (15+7*(Math.sqrt(5)))*Math.pow(arista,3)*1/4;
 		System.out.println("1.Datos de la Dodecaedro:");

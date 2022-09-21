@@ -15,5 +15,6 @@ public class HusoEsferico {
 		System.out.println("2.Grados: "+n);
 		System.out.println("3.Radio: "+r);
 		System.out.println("4.Area Total: "+Area);
+		lec.close();
 	}
 }
