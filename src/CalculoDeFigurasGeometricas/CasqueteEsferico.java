@@ -6,12 +6,13 @@ public class CasqueteEsferico {
 		double Area, Volumen, r, R, h;
 		do{
 		System.out.println("Digite el radio menor");
-		r=lec.nextDouble();
+		r=lec.nextDouble();}while(r<=0);
+		do{
 		System.out.println("Digite el radio mayor");
-		R=lec.nextDouble();
-		}while(r<=0 && R<=0);
+		R=lec.nextDouble();}while(R<=0);
+		do{
 		System.out.println("Digite la altura");
-		h=lec.nextDouble();
+		h=lec.nextDouble();}while(h<=0);
 		Area= 2*Math.PI*(R*h);
 		Volumen = Math.PI*Math.pow(h,2)*((3*R)-h)/3;
 
