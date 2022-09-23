@@ -13,7 +13,7 @@ public class Piramide {
 		n=5;
 		l=8.5f;
 		Pbase= n*l;
-		apotema = Math.sqrt(Math.pow(h,2)+Math.pow(h,2));
+		apotema = 
 		areaLateral= Pbase*apotema/2;
 		
 		anguloCentral= (360/n)*(Math.PI/180);
